@@ -33,4 +33,9 @@ export default defineConfig({
       "ngrok-skip-browser-warning": "true", // 👈 this line skips the warning
     },
   },
+
+  base: "./",
+  build: {
+    outDir: "dist",
+  },
 });
