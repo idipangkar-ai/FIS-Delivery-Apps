@@ -3,7 +3,7 @@ import { motion } from "framer-motion"; // Optional for subtle animation
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm p-4 flex justify-between items-center">
+    <header className=" top-0 z-50 bg-white shadow-sm p-4 flex justify-between items-center">
       {/* Left: Logo / App Name */}
       <h1 className="text-lg font-semibold text-blue-600">FIS-Delivery-Apps</h1>
 
