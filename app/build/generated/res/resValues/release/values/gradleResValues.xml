@@ -24,24 +24,24 @@
     <!-- Value from default config. -->
     <integer name="splashScreenFadeOutDuration">300</integer>
     <!-- Value from default config. -->
-    <string name="appName" translatable="false">FIS-Ltd.</string>
+    <string name="appName" translatable="false">FIS-Ltd</string>
     <!-- Value from default config. -->
     <string name="fallbackType" translatable="false">customtabs</string>
     <!-- Value from default config. -->
-    <string name="fullScopeUrl" translatable="false">http://localhost:5173/</string>
+    <string name="fullScopeUrl" translatable="false">https://fis-delivery-apps.vercel.app/</string>
     <!-- Value from default config. -->
     <string name="generatorApp" translatable="false">bubblewrap-cli</string>
     <!-- Value from default config. -->
-    <string name="hostName" translatable="false">localhost</string>
+    <string name="hostName" translatable="false">fis-delivery-apps.vercel.app</string>
     <!-- Value from default config. -->
-    <string name="launchUrl" translatable="false">https://localhost/</string>
+    <string name="launchUrl" translatable="false">https://fis-delivery-apps.vercel.app/</string>
     <!-- Value from default config. -->
     <string name="launcherName" translatable="false">FIS</string>
     <!-- Value from default config. -->
     <string name="orientation" translatable="false">default</string>
     <!-- Value from default config. -->
-    <string name="providerAuthority" translatable="false">localhost_5173.twa.fileprovider</string>
+    <string name="providerAuthority" translatable="false">app.vercel.fis_delivery_apps.twa.fileprovider</string>
     <!-- Value from default config. -->
-    <string name="webManifestUrl" translatable="false">http://localhost:5173/manifest.webmanifest</string>
+    <string name="webManifestUrl" translatable="false">https://fis-delivery-apps.vercel.app/manifest.webmanifest</string>
 
 </resources>

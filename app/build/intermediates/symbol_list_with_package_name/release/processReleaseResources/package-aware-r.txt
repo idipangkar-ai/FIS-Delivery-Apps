@@ -1,4 +1,4 @@
-localhost_5173.twa
+app.vercel.fis_delivery_apps.twa
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom

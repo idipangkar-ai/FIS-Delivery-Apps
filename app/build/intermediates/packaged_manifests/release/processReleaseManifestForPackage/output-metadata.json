@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "localhost_5173.twa",
+  "applicationId": "app.vercel.fis_delivery_apps.twa",
   "variantName": "release",
   "elements": [
     {
