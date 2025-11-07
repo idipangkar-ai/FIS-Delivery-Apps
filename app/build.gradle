@@ -24,9 +24,9 @@ def twaManifest = [
     applicationId: 'app.vercel.fis_delivery_apps.twa',
     hostName: 'fis-delivery-apps.vercel.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'FIS-Ltd', // The application name.
-    launcherName: 'FIS', // The name shown on the Android Launcher.
-    themeColor: '#2563EB', // The color used for the status bar.
+    name: 'FIS Delivery Apps', // The application name.
+    launcherName: 'FIS-DA', // The name shown on the Android Launcher.
+    themeColor: '#FFFFFF', // The color used for the status bar.
     themeColorDark: '#000000', // The color used for the dark status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
@@ -76,7 +76,7 @@ android {
             // The URL the Web Manifest for the Progressive Web App that the TWA points to. This
             // is used by Chrome OS and Meta Quest to open the Web version of the PWA instead of
             // the TWA, as it will probably give a better user experience for non-mobile devices.
-            resValue "string", "webManifestUrl", 'https://fis-delivery-apps.vercel.app/manifest.webmanifest'
+            resValue "string", "webManifestUrl", 'https://fis-delivery-apps.vercel.app/manifest.json'
         
 
         

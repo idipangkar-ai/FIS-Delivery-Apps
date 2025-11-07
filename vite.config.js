@@ -9,23 +9,25 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: "autoUpdate",
+      injectRegister: "auto",
       devOptions: { enabled: true },
 
-      // ✅ Add this to avoid the "glob pattern" warning
       workbox: {
         globDirectory: "dist",
         globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
       },
 
       manifest: {
-        name: "FIS-Ltd.",
+        name: "FIS Ltd.",
         short_name: "FIS",
+        description: "FIS Delivery Progressive Web App",
         start_url: "/",
         scope: "/",
         display: "standalone",
+        orientation: "portrait",
         background_color: "#ffffff",
         theme_color: "#2563eb",
-        description: "Fast, reliable, and smart delivery solutions.",
+        lang: "en",
         icons: [
           {
             src: "/icon-192x192.png",
